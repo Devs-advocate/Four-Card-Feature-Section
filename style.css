@@ -129,6 +129,20 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 }
 
 @media (min-width: 1200px) {
+  .content-container{
+    padding-top: 5.6em;
+    /* padding: 6em 2em 3.65em 2em; */
+    /* border: solid 3px green; */
+  }
+
+  .title {
+    margin-bottom: .55em;
+  }
+
+  .byline {
+    margin-bottom: 4.1em;  
+  }
+
   .cards {
     display: grid;
     grid-template-columns: auto auto auto;
